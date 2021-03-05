@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CppProject",
+			"Path": "D:\\Coding\\Unreal_game_programming_BP\\CHAPTER06\\CppProject\\Source\\CppProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CppProjectEditor",
+			"Path": "D:\\Coding\\Unreal_game_programming_BP\\CHAPTER06\\CppProject\\Source\\CppProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

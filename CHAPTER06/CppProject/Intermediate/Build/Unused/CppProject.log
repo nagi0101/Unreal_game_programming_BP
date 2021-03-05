@@ -1,0 +1,20 @@
+﻿  Creating makefile for CppProjectEditor (no existing makefile)
+  Parsing headers for CppProjectEditor
+    Running UnrealHeaderTool "D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\CppProject.uproject" "D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\CppProjectEditor\DebugGame\CppProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\demon\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for CppProjectEditor in 4.1655752 seconds
+  Building CppProjectEditor...
+  Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 16 processes...
+    [1/9] Default.rc2
+    [2/9] SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
+    [3/9] CppProject.cpp
+    [4/9] CppProject.init.gen.cpp
+    [5/9] TestCharacter.cpp
+    [6/9] TestCharacter.gen.cpp
+    [7/9] UE4Editor-CppProject-Win64-DebugGame.lib
+       Creating library D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\UE4Editor-CppProject-Win64-DebugGame.lib and object D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\UE4Editor-CppProject-Win64-DebugGame.exp
+    [8/9] UE4Editor-CppProject-Win64-DebugGame.dll
+       Creating library D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\UE4Editor-CppProject-Win64-DebugGame.suppressed.lib and object D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\UE4Editor-CppProject-Win64-DebugGame.suppressed.exp
+    [9/9] CppProjectEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 19.57 seconds
+  Total execution time: 25.11 seconds

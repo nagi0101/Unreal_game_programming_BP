@@ -1,0 +1,2 @@
+D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\Definitions.CppProject.h
+D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Source\CppProject\CppProject.h

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CppProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\CppProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\CppProject.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\TestCharacter.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\CppProject.init.gen.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\TestCharacter.gen.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\Default.rc2.res"
+/OUT:"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\Development\CppProject\UE4Editor-CppProject.lib"
+/INCLUDE:IMPLEMENT_MODULE_CppProject

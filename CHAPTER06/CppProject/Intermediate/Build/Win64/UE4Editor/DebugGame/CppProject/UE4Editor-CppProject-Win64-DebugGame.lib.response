@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CppProject-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\CppProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\CppProject.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\TestCharacter.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\CppProject.init.gen.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\TestCharacter.gen.cpp.obj"
+"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\Default.rc2.res"
+/OUT:"D:\Coding\Unreal_game_programming_BP\CHAPTER06\CppProject\Intermediate\Build\Win64\UE4Editor\DebugGame\CppProject\UE4Editor-CppProject-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_CppProject
