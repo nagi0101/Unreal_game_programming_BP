@@ -1,0 +1,1662 @@
+﻿Log file open, 03/08/21 15:48:52
+LogInit: Display: Running engine for game: SideScrollGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.152487
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.08-06.48.52:992][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.08-06.48.52:993][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.08-06.48.52:993][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.08-06.48.52:993][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.08-06.48.52:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:993][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.08-06.48.52:995][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.08-06.48.52:996][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.08-06.48.52:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.08-06.48.52:996][  0]LogHAL: Display: Platform has ~ 32 GB [34287513600 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.08-06.48.52:996][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.08-06.48.52:996][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Scalability.ini]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.08-06.48.52:997][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Config/Windows/Engine.ini]
+[2021.03.08-06.48.52:997][  0]LogInit: Computer: DESKTOP-SRPFT0I
+[2021.03.08-06.48.52:997][  0]LogInit: User: demon
+[2021.03.08-06.48.52:997][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.03.08-06.48.52:997][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.08-06.48.52:997][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.03.08-06.48.52:997][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.08-06.48.52:997][  0]LogMemory: Process Physical Memory: 115.80 MB used, 115.80 MB peak
+[2021.03.08-06.48.52:997][  0]LogMemory: Process Virtual Memory: 97.97 MB used, 97.97 MB peak
+[2021.03.08-06.48.52:997][  0]LogMemory: Physical Memory: 11838.46 MB used,  20860.66 MB free, 32699.12 MB total
+[2021.03.08-06.48.52:998][  0]LogMemory: Virtual Memory: 5186.73 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.03.08-06.48.53:003][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.08-06.48.53:038][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.08-06.48.53:039][  0]LogInit: Using OS detected language (en-US).
+[2021.03.08-06.48.53:039][  0]LogInit: Using OS detected locale (en-US).
+[2021.03.08-06.48.53:041][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.03.08-06.48.53:177][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.08-06.48.53:221][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.08-06.48.53:221][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.08-06.48.53:307][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.08-06.48.53:307][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.08-06.48.53:307][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.08-06.48.53:307][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.08-06.48.53:400][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2021.03.08-06.48.53:400][  0]LogD3D11RHI:       8011/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.03.08-06.48.53:402][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.08-06.48.53:402][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.08-06.48.53:402][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.08-06.48.53:412][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.08-06.48.53:412][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.08-06.48.53:412][  0]LogWindows: EnumDisplayDevices:
+[2021.03.08-06.48.53:412][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.03.08-06.48.53:412][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.03.08-06.48.53:413][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.03.08-06.48.53:413][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.03.08-06.48.53:413][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.08-06.48.53:413][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.03.08-06.48.53:413][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.03.08-06.48.53:413][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.03.08-06.48.53:413][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2021.03.08-06.48.53:488][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.08-06.48.53:488][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.08-06.48.53:488][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.08-06.48.53:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.08-06.48.53:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.08-06.48.53:750][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.08-06.48.53:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.08-06.48.53:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.08-06.48.53:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.08-06.48.53:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.08-06.48.53:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.08-06.48.53:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.08-06.48.53:808][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.08-06.48.53:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.08-06.48.53:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.08-06.48.53:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.08-06.48.53:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.08-06.48.53:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.08-06.48.53:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.08-06.48.53:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.08-06.48.53:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.08-06.48.53:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.08-06.48.53:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.08-06.48.53:889][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.08-06.48.53:894][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.08-06.48.53:939][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Intermediate/Shaders/WorkingDirectory/4276/).
+[2021.03.08-06.48.53:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/demon/AppData/Local/Temp/UnrealShaderWorkingDir/2C5DE14648D5068D18E1ED87C98FEC9D/'.
+[2021.03.08-06.48.53:939][  0]LogXGEController: Cleaning working directory: C:/Users/demon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.08-06.48.53:939][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.08-06.48.53:939][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.08-06.48.53:939][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.08-06.48.54:523][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.08-06.48.54:560][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/demon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.08-06.48.54:560][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/demon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.08-06.48.54:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.08-06.48.54:560][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.08-06.48.54:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.08-06.48.54:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.08-06.48.54:570][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.08-06.48.54:570][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.08-06.48.54:570][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.08-06.48.54:571][  0]LogDerivedDataCache: Using Local data cache path C:/Users/demon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.08-06.48.54:571][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.08-06.48.54:571][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.08-06.48.54:615][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.08-06.48.54:615][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.08-06.48.54:633][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.03.08-06.48.54:822][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.08-06.48.54:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.08-06.48.54:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.08-06.48.54:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.08-06.48.54:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.08-06.48.54:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.08-06.48.54:921][  0]LogNetVersion: SideScrollGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2193710575)
+[2021.03.08-06.48.55:245][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000282C65A5BC0), frame # 0
+[2021.03.08-06.48.55:245][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000282C64F91C0), frame # 0
+[2021.03.08-06.48.55:246][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000282C6578800), frame # 0
+[2021.03.08-06.48.55:280][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.029818 seconds
+[2021.03.08-06.48.55:286][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.08-06.48.55:286][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.08-06.48.55:286][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.08-06.48.55:554][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.08-06.48.55:558][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.08-06.48.55:620][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.55:620][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.55:622][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.55:625][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.55:705][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.55:892][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.08-06.48.55:906][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.08-06.48.55:906][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.08-06.48.55:943][  0]LogOcInput: OculusInput pre-init called
+[2021.03.08-06.48.55:952][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.08-06.48.55:952][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.08-06.48.56:004][  0]LogEngine: Initializing Engine...
+[2021.03.08-06.48.56:005][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.08-06.48.56:005][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.08-06.48.56:006][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.08-06.48.56:086][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.08-06.48.56:092][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.08-06.48.56:092][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000282CC409C00), frame # 0
+[2021.03.08-06.48.56:092][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000282CC455580), frame # 0
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-06.48.56:100][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-06.48.56:100][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-06.48.56:100][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-06.48.56:108][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-06.48.56:108][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-06.48.56:137][  0]LogAudioMixer: Display: Using Audio Device 스피커 (2- USB Audio Device)
+[2021.03.08-06.48.56:138][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-06.48.56:140][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-06.48.56:140][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-06.48.56:141][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-06.48.56:141][  0]LogInit: FAudioDevice initialized.
+[2021.03.08-06.48.56:141][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.08-06.48.56:191][  0]LogDerivedDataCache: Saved boot cache 0.05s 76MB C:/Users/demon/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.08-06.48.56:195][  0]LogInit: Texture streaming: Enabled
+[2021.03.08-06.48.56:207][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.08-06.48.56:207][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.08-06.48.56:208][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.08-06.48.56:251][  0]LogInit: Transaction tracking system initialized
+[2021.03.08-06.48.56:266][  0]BlueprintLog: New page: Editor Load
+[2021.03.08-06.48.56:316][  0]LocalizationService: Localization service is disabled
+[2021.03.08-06.48.56:423][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.08-06.48.56:423][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.08-06.48.56:517][  0]LogFileCache: Scanning file cache for directory 'D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/' took 0.00s
+[2021.03.08-06.48.56:671][  0]SourceControl: Source control is disabled
+[2021.03.08-06.48.56:671][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.556
+[2021.03.08-06.48.56:671][  0]Cmd: MAP LOAD FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.08-06.48.56:672][  0]LightingResults: New page: Lighting Build
+[2021.03.08-06.48.56:672][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-06.48.56:672][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-06.48.56:672][  0]MapCheck: New page: Map Check
+[2021.03.08-06.48.56:672][  0]LightingResults: New page: Lighting Build
+[2021.03.08-06.48.56:685][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000282CC409C00), frame # 0
+[2021.03.08-06.48.56:685][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000282CC455580), frame # 0
+[2021.03.08-06.48.56:686][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.03.08-06.48.56:847][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.03.08-06.48.56:847][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000282CC4A7E00), frame # 0
+[2021.03.08-06.48.56:847][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000282CC50D440), frame # 0
+[2021.03.08-06.48.56:884][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.08-06.48.56:896][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.03.08-06.48.56:897][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.08-06.48.56:897][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2021.03.08-06.48.56:897][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.226
+[2021.03.08-06.48.56:899][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.783
+[2021.03.08-06.48.57:012][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-06.48.57:017][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-06.48.57:022][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-06.48.57:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-06.48.57:032][  0]LogCollectionManager: Loaded 0 collections in 0.000558 seconds
+[2021.03.08-06.48.57:044][  0]LogFileCache: Scanning file cache for directory 'D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Collections/' took 0.00s
+[2021.03.08-06.48.57:044][  0]LogFileCache: Scanning file cache for directory 'D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Developers/demon/Collections/' took 0.00s
+[2021.03.08-06.48.57:044][  0]LogFileCache: Scanning file cache for directory 'D:/Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Collections/' took 0.00s
+[2021.03.08-06.48.57:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3427 classes and 821 folders.
+[2021.03.08-06.48.57:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.08-06.48.57:076][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.08-06.48.57:096][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.03.08-06.48.57:173][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.08-06.48.57:174][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.08-06.48.57:178][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.08-06.48.57:223][  0]LogRenderer: Reallocating scene render targets to support 1156x592 Format 10 NumSamples 1 (Frame:1).
+[2021.03.08-06.48.57:293][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.08-06.48.57:293][  0]LogLoad: (Engine Initialization) Total time: 5.18 seconds
+[2021.03.08-06.48.57:293][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.08-06.48.57:327][  0]LogAssetRegistry: Asset discovery search completed in 2.6943 seconds
+[2021.03.08-06.48.57:329][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.08-06.48.57:331][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.08-06.48.57:348][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.08-06.53.25:329][326]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.08-06.53.59:480][257]LogSlate: Window 'New Channel' being destroyed
+[2021.03.08-06.55.29:187][ 66]LogSlate: Window 'New Profile' being destroyed
+[2021.03.08-06.59.33:173][905]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.08-06.59.37:935][905]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.08-06.59.51:169][477]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/HighScore_BP.HighScore_BP
+[2021.03.08-06.59.51:298][477]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.03.08-06.59.51:912][477]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.08-06.59.54:979][664]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.08-07.00.18:747][506]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.03.08-07.00.39:313][967]BlueprintLog: New page: Compile HighScore_BP
+[2021.03.08-07.00.39:332][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.03.08-07.01.23:931][285]BlueprintLog: New page: Compile HighScore_BP
+[2021.03.08-07.01.23:948][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.03.08-07.03.40:776][923]BlueprintLog: New page: Compile HighScore_BP
+[2021.03.08-07.03.40:795][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.03.08-07.09.38:390][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.03.08-07.09.38:393][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.020
+[2021.03.08-07.09.38:393][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScore_BP] ([1] browsable assets)...
+[2021.03.08-07.09.38:393][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScore_BP]
+[2021.03.08-07.09.38:402][958]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/HighScore_BP_Auto132F136724107AFBF1CA67DAC91958790.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/HighScore_BP_Auto1.uasset'
+[2021.03.08-07.09.38:402][958]LogFileHelpers: Auto-saving content packages took 0.009
+[2021.03.08-07.12.20:959][568]LogSlate: Window 'HighScore_BP' being destroyed
+[2021.03.08-07.12.21:509][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScore_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/HighScore_BP.uasset" SILENT=true
+[2021.03.08-07.12.21:520][632]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/HighScore_BP0C70AE4C47C84CEABFCA9285FFFC494F.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/HighScore_BP.uasset'
+[2021.03.08-07.12.21:534][632]AssetCheck: New page: Asset Save: HighScore_BP
+[2021.03.08-07.12.21:534][632]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HighScore_BP.HighScore_BP
+[2021.03.08-07.15.04:066][522]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-07.15.04:067][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-07.15.22:173][661]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.08-07.15.28:776][661]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.08-07.19.38:953][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.03.08-07.19.38:957][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.020
+[2021.03.08-07.19.38:957][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2021.03.08-07.19.38:957][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2021.03.08-07.19.38:965][689]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame_Auto2B8D6210B40DBDF6888015E84DD46FAEA.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/MyGame_Auto2.uasset'
+[2021.03.08-07.19.38:965][689]LogFileHelpers: Auto-saving content packages took 0.009
+[2021.03.08-07.41.29:941][717]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyGame.MyGame
+[2021.03.08-07.41.32:346][945]LogSlate: Window 'MyGame' being destroyed
+[2021.03.08-07.41.33:006][ 22]LogRenderer: Reallocating scene render targets to support 1156x708 Format 10 NumSamples 1 (Frame:248).
+[2021.03.08-07.43.19:622][747]BlueprintLog: New page: Compile MyGame
+[2021.03.08-07.43.19:647][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.03.08-07.43.19:663][747]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.08-07.43.20:554][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.03.08-07.43.20:555][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.017
+[2021.03.08-07.43.20:556][848]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2021.03.08-07.43.20:556][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2021.03.08-07.43.20:565][848]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame_Auto3026DDB5042B09C07049E1480927E3374.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/MyGame_Auto3.uasset'
+[2021.03.08-07.43.20:565][848]LogFileHelpers: Auto-saving content packages took 0.010
+[2021.03.08-07.46.26:867][ 56]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-07.52.04:754][452]BlueprintLog: New page: Compile MyGame
+[2021.03.08-07.52.04:780][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.03.08-07.54.51:458][228]BlueprintLog: New page: Compile MyGame
+[2021.03.08-07.54.51:484][228]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.03.08-07.55.16:742][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.03.08-07.55.16:742][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.018
+[2021.03.08-07.55.16:742][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2021.03.08-07.55.16:742][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2021.03.08-07.55.16:756][228]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame_Auto4EACBBA14431D8A65602DB39DE6FD89AC.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/MyGame_Auto4.uasset'
+[2021.03.08-07.55.16:757][228]LogFileHelpers: Auto-saving content packages took 0.014
+[2021.03.08-08.00.25:201][864]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.00.25:228][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.03.08-08.00.33:081][796]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.00.33:108][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.03.08-08.05.39:050][319]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.05.39:078][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.08-08.05.39:641][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.03.08-08.05.39:641][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.017
+[2021.03.08-08.05.39:642][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyGame] ([1] browsable assets)...
+[2021.03.08-08.05.39:642][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyGame]
+[2021.03.08-08.05.39:655][378]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame_Auto553D2A96446772AD4262B709A01EBDFC3.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/MyGame_Auto5.uasset'
+[2021.03.08-08.05.39:655][378]LogFileHelpers: Auto-saving content packages took 0.015
+[2021.03.08-08.08.23:733][821]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.08.23:762][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.03.08-08.08.26:806][178]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/HighScore_BP.HighScore_BP
+[2021.03.08-08.08.35:526][188]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-08.08.35:526][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.08.48:145][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyGame.uasset" SILENT=true
+[2021.03.08-08.08.48:160][674]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame41DCCBB543AE1B3F8DB1C2AA557D42FF.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyGame.uasset'
+[2021.03.08-08.08.48:171][674]AssetCheck: New page: Asset Save: MyGame
+[2021.03.08-08.08.48:171][674]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/MyGame.MyGame
+[2021.03.08-08.08.48:757][743]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.08.48:788][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.03.08-08.09.05:302][665]LogEditorTransaction: Undo Add Node
+[2021.03.08-08.11.05:407][659]LogEditorTransaction: Undo Move Node
+[2021.03.08-08.11.06:244][730]LogEditorTransaction: Undo Move Nodes
+[2021.03.08-08.11.44:227][253]BlueprintLog: New page: Compile MyGame
+[2021.03.08-08.11.44:259][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.03.08-08.11.46:744][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGame" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyGame.uasset" SILENT=true
+[2021.03.08-08.11.46:765][544]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyGame4205BA424B668CA5CC792B809F3E4418.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyGame.uasset'
+[2021.03.08-08.11.46:776][544]AssetCheck: New page: Asset Save: MyGame
+[2021.03.08-08.11.46:776][544]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/MyGame.MyGame
+[2021.03.08-08.11.52:562][236]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-08.11.52:562][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.25.35:448][632]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.08-08.25.39:739][632]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.08-08.25.51:991][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.25.54:612][334]LogSlate: Window 'GoalPoint_BP' being destroyed
+[2021.03.08-08.29.47:035][899]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.29.47:068][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.03.08-08.31.06:893][320]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.31.06:896][320]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/GoalPoint_BP.GoalPoint_BP_C:GoalCollision
+    Item = SphereComponent /Engine/Transient.World_4:PersistentLevel.REINST_GoalPoint_BP_C_1.TRASH_SphereComponent_106
+[2021.03.08-08.31.06:896][320]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/GoalPoint_BP.GoalPoint_BP_C:GoalCollision
+    Item = SphereComponent /Engine/Transient.World_5:PersistentLevel.REINST_GoalPoint_BP_C_1.TRASH_SphereComponent_2
+[2021.03.08-08.31.06:924][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.03.08-08.32.26:754][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.08-08.32.26:759][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.024
+[2021.03.08-08.32.26:759][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/GoalPoint_BP] ([1] browsable assets)...
+[2021.03.08-08.32.26:775][710]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP]
+[2021.03.08-08.32.26:775][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GoalPoint_BP]
+[2021.03.08-08.32.26:787][710]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP_Auto67C2BA6724FF2CA02D0D8939226E4FEA7.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/GoalPoint_BP_Auto6.uasset'
+[2021.03.08-08.32.26:788][710]LogFileHelpers: Auto-saving content packages took 0.029
+[2021.03.08-08.34.27:477][563]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-08.34.27:477][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.34.32:548][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.03.08-08.34.34:893][137]LogSlate: Window 'Delete Assets' being destroyed
+[2021.03.08-08.34.36:100][137]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.34.36:911][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.03.08-08.34.37:097][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.03.08-08.34.39:276][363]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.08-08.34.54:995][363]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.08-08.35.02:098][196]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.37.10:907][483]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.37.10:933][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.03.08-08.40.54:773][110]LogTexture: Display: Building textures: AlterTex_Mask (AutoDXT, 2048X2048)
+[2021.03.08-08.40.54:774][110]LogTexture: Display: Building textures: AlterTex_def (AutoDXT, 2048X2048)
+[2021.03.08-08.40.54:774][110]LogSkeletalMesh: Building Skeletal Mesh Alter...
+[2021.03.08-08.40.54:798][110]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Alter/Alter.Alter
+[2021.03.08-08.40.54:862][110]LogMaterial: Display: Missing cached shader map for material AlterTex_def_Mat, compiling. 
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 39
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 35
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 31
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 27
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 23
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 15
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 11
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
+[2021.03.08-08.40.54:906][110]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2021.03.08-08.41.05:229][292]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Alter/Alter_Anim_Action.Alter_Anim_Action
+[2021.03.08-08.41.50:409][670]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.41.50:436][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.03.08-08.42.10:768][ 82]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.42.10:795][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.03.08-08.42.13:714][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoalPoint_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset" SILENT=true
+[2021.03.08-08.42.13:728][425]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP48A2E5714DA3EA2C260E5B88C4C2F962.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset'
+[2021.03.08-08.42.13:739][425]AssetCheck: New page: Asset Save: GoalPoint_BP
+[2021.03.08-08.42.13:739][425]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.42.14:830][553]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.42.14:857][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.03.08-08.43.27:467][116]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.43.27:494][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.03.08-08.43.28:085][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoalPoint_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset" SILENT=true
+[2021.03.08-08.43.28:103][182]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP416D4060457047E8ACD9E685E00123A9.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset'
+[2021.03.08-08.43.28:113][182]AssetCheck: New page: Asset Save: GoalPoint_BP
+[2021.03.08-08.43.28:113][182]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.48.04:624][516]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.48.04:654][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.03.08-08.48.50:692][987]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.48.50:720][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.03.08-08.49.07:925][ 44]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-08.49.07:952][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.03.08-08.52.40:421][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.03.08-08.52.40:423][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.026
+[2021.03.08-08.52.40:423][124]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/GoalPoint_BP] ([1] browsable assets)...
+[2021.03.08-08.52.40:447][124]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP]
+[2021.03.08-08.52.40:447][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GoalPoint_BP]
+[2021.03.08-08.52.40:468][124]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP_Auto71BA8592D43ED0AAE60DD048F02454C52.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/GoalPoint_BP_Auto7.uasset'
+[2021.03.08-08.52.40:468][124]LogFileHelpers: Auto-saving content packages took 0.045
+[2021.03.08-08.54.00:454][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoalPoint_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset" SILENT=true
+[2021.03.08-08.54.00:467][580]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP896E628F462FF1FD26E49487282D937F.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset'
+[2021.03.08-08.54.00:482][580]AssetCheck: New page: Asset Save: GoalPoint_BP
+[2021.03.08-08.54.00:482][580]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-08.54.01:000][641]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-08.54.01:000][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.54.45:420][403]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-08.54.45:433][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-08.54.45:434][403]PIE: New page: PIE session: SideScrollerExampleMap (Mar 9, 2021, 2:54:45 AM)
+[2021.03.08-08.54.45:435][403]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.08-08.54.45:435][403]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.08-08.54.45:435][403]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.03.08-08.54.45:445][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009288s)
+[2021.03.08-08.54.45:447][403]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.03.08-08.54.45:447][403]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028309E13000), frame # 448403
+[2021.03.08-08.54.45:447][403]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000282C97EFC40), frame # 448403
+[2021.03.08-08.54.45:447][403]LogPlayLevel: PIE: World Init took: (0.002098s)
+[2021.03.08-08.54.45:447][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011710s)
+[2021.03.08-08.54.45:477][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-08.54.45:480][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-08.54.45:480][403]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-08.54.45:480][403]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-08.54.45:483][403]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-08.54.45:483][403]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-08.54.45:498][403]LogAudioMixer: Display: Using Audio Device 스피커 (2- USB Audio Device)
+[2021.03.08-08.54.45:499][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-08.54.45:499][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-08.54.45:499][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-08.54.45:499][403]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-08.54.45:510][403]LogInit: FAudioDevice initialized.
+[2021.03.08-08.54.45:532][403]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.03.08-08.54.45:534][403]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2021.03.08-17.54.45
+[2021.03.08-08.54.45:534][403]LogWorld: Bringing up level for play took: 0.001514
+[2021.03.08-08.54.45:535][403]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.08-08.54.45:545][403]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.03.08-08.54.45:546][403]PIE: Server logged in
+[2021.03.08-08.54.45:547][403]PIE: Play in editor total start time 0.114 seconds.
+[2021.03.08-08.58.57:310][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-08.58.57:310][899]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.03.08-08.58.57:310][899]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-08.58.57:310][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.58.57:320][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-08.58.57:323][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-08.58.57:347][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-08.58.57:348][899]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000282C97EFC40), frame # 451899
+[2021.03.08-08.58.57:348][899]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028309E13000), frame # 451899
+[2021.03.08-08.58.57:351][899]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.03.08-08.58.57:374][900]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.08-09.01.53:652][789]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.08-09.01.54:762][789]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.08-09.02.05:481][ 66]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BaseCharacter_BP.BaseCharacter_BP
+[2021.03.08-09.03.20:934][  5]BlueprintLog: New page: Compile BaseCharacter_BP
+[2021.03.08-09.03.20:968][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.03.08-09.04.23:237][324]BlueprintLog: New page: Compile BaseCharacter_BP
+[2021.03.08-09.04.23:262][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.03.08-09.06.52:412][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.03.08-09.06.52:416][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.020
+[2021.03.08-09.06.52:416][101]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BaseCharacter_BP] ([1] browsable assets)...
+[2021.03.08-09.06.52:416][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BaseCharacter_BP]
+[2021.03.08-09.06.52:429][101]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/BaseCharacter_BP_Auto8E08F45A54876E575340132A914B81887.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/BaseCharacter_BP_Auto8.uasset'
+[2021.03.08-09.06.52:429][101]LogFileHelpers: Auto-saving content packages took 0.013
+[2021.03.08-09.33.19:761][440]LogSlate: Window 'BaseCharacter_BP' being destroyed
+[2021.03.08-09.33.22:606][753]BlueprintLog: New page: Compile BaseCharacter_BP
+[2021.03.08-09.33.22:633][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.03.08-09.35.39:838][965]BlueprintLog: New page: Compile BaseCharacter_BP
+[2021.03.08-09.35.39:865][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.08-09.35.40:277][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseCharacter_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/BaseCharacter_BP.uasset" SILENT=true
+[2021.03.08-09.35.40:292][ 10]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/BaseCharacter_BP4B91B03A478FB735428B108F4E65D542.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/BaseCharacter_BP.uasset'
+[2021.03.08-09.35.40:306][ 10]AssetCheck: New page: Asset Save: BaseCharacter_BP
+[2021.03.08-09.35.40:306][ 10]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BaseCharacter_BP.BaseCharacter_BP
+[2021.03.08-09.38.00:824][455]BlueprintLog: New page: Compile BaseCharacter_BP
+[2021.03.08-09.38.00:852][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.03.08-09.38.07:279][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseCharacter_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/BaseCharacter_BP.uasset" SILENT=true
+[2021.03.08-09.38.07:299][213]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/BaseCharacter_BPBF2A841142898DF47D4962A85F92D4DC.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/BaseCharacter_BP.uasset'
+[2021.03.08-09.38.07:313][213]AssetCheck: New page: Asset Save: BaseCharacter_BP
+[2021.03.08-09.38.07:313][213]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BaseCharacter_BP.BaseCharacter_BP
+[2021.03.08-09.38.08:614][367]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.38.08:614][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.38.33:720][366]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyGame.MyGame
+[2021.03.08-09.38.39:825][ 35]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.38.39:825][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.38.43:000][402]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-09.40.51:206][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_0.K2Node_VariableGet_75' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:206][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_0.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:206][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_0.AnimGraphNode_StateResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:206][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_1.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:206][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_1.AnimGraphNode_StateResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_2.AnimGraphNode_SequencePlayer_40' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_2.AnimGraphNode_StateResult_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_3.AnimGraphNode_SequencePlayer_46' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationStateGraph_3.AnimGraphNode_StateResult_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_0.K2Node_VariableGet_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_0.AnimGraphNode_TransitionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_1.K2Node_TransitionRuleGetter_44' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_1.K2Node_CallFunction_7960' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:207][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_1.AnimGraphNode_TransitionResult_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_2.K2Node_VariableGet_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_2.K2Node_CallFunction_8008' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_2.AnimGraphNode_TransitionResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_3.K2Node_TransitionRuleGetter_53' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_3.K2Node_CallFunction_8428' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:208][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:ExecuteUbergraph_HeroTPP_AnimBlueprint.AnimationTransitionGraph_3.AnimGraphNode_TransitionResult_18' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:209][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:209][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EdGraph_0.K2Node_FunctionEntry_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:216][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EdGraph_0.K2Node_FunctionEntry_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Jump_Start.Jump_Start
+[2021.03.08-09.40.51:225][899]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Jump_Loop.Jump_Loop
+[2021.03.08-09.40.51:225][899]BlueprintLog: Warning: Blueprint MyCharacter has been migrated and requires re-saving to avoid import errors
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_Comment_183' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_Comment_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_10185' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_2170' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:UserConstructionScript.K2Node_FunctionEntry_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_InputAction_48' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_InputAxisEvent_96' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4.JumpStart.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6.JumpLoop.AnimGraphNode_SequencePlayer_40' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8.JumpEnd.AnimGraphNode_SequencePlayer_46' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:225][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.AnimGraphNode_StateResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4.JumpStart.AnimGraphNode_StateResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6.JumpLoop.AnimGraphNode_StateResult_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8.JumpEnd.AnimGraphNode_StateResult_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.AnimGraphNode_TransitionResult_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_18' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.EdGraphNode_Comment_61' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Comment_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.K2Node_CallFunction_7960' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_8008' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_8428' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_11813' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_11990' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_3089' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_3144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_846' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Event_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_MacroInstance_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.K2Node_TransitionRuleGetter_44' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.K2Node_TransitionRuleGetter_53' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.K2Node_VariableGet_75' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:226][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_VariableSet_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:227][899]LogBlueprint: Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_VariableSet_64' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.40.51:244][899]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2021.03.08-09.40.51:249][899]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Character/HeroTPP.HeroTPP
+[2021.03.08-09.40.51:268][899]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2021.03.08-09.40.51:629][900]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Run.Run
+[2021.03.08-09.40.51:629][900]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Walk.Walk
+[2021.03.08-09.40.51:649][901]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Jump_End.Jump_End
+[2021.03.08-09.40.51:649][901]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Idle.Idle
+[2021.03.08-09.40.58:002][631]LogSlate: Window 'MyCharacter' being destroyed
+[2021.03.08-09.40.58:018][631]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.40.58:018][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.42.22:153][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.03.08-09.42.22:156][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.024
+[2021.03.08-09.42.22:156][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/GoalPoint_BP] ([1] browsable assets)...
+[2021.03.08-09.42.22:166][574]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP]
+[2021.03.08-09.42.22:166][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GoalPoint_BP]
+[2021.03.08-09.42.22:186][574]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BP_Auto98AAC2AE9422A9E5B378D679CDBEF20A3.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/Autosaves/Game/Blueprints/GoalPoint_BP_Auto9.uasset'
+[2021.03.08-09.42.22:187][574]LogFileHelpers: Auto-saving content packages took 0.031
+[2021.03.08-09.42.25:806][  6]BlueprintLog: New page: Compile GoalPoint_BP
+[2021.03.08-09.42.25:832][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.03.08-09.44.11:519][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoalPoint_BP" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset" SILENT=true
+[2021.03.08-09.44.11:534][823]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/GoalPoint_BPDDA6CC34421D9FF3567330AD2F0A9165.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/GoalPoint_BP.uasset'
+[2021.03.08-09.44.11:550][823]AssetCheck: New page: Asset Save: GoalPoint_BP
+[2021.03.08-09.44.11:550][823]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GoalPoint_BP.GoalPoint_BP
+[2021.03.08-09.44.12:447][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.08-09.44.12:447][929]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.44.12:447][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.44.39:050][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2021.03.08-09.44.46:214][905]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.44.53:481][764]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/MyCharacter.MyCharacter from Character to BaseCharacter_BP_C...
+[2021.03.08-09.44.53:488][764]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.44.53:491][764]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EdGraph_1.K2Node_FunctionEntry_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.44.53:523][764]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.03.08-09.44.55:715][ 12]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.44.55:718][ 12]LogBlueprint: Warning: Node '/Game/Blueprints/MyCharacter.MyCharacter:EdGraph_2.K2Node_FunctionEntry_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.44.55:747][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.03.08-09.45.09:983][551]LogSlate: Window 'MyCharacter' being destroyed
+[2021.03.08-09.45.10:519][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2021.03.08-09.45.10:538][612]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyCharacterAC4B27A846B53D46E49B67A65B8A0D42.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset'
+[2021.03.08-09.45.10:548][612]AssetCheck: New page: Asset Save: MyCharacter
+[2021.03.08-09.45.10:548][612]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2021.03.08-09.46.03:291][898]LogEditorTransaction: Undo Change Variable Category
+[2021.03.08-09.46.04:085][968]LogEditorTransaction: Undo Change Variable Category
+[2021.03.08-09.46.11:953][898]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.46.18:286][654]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.46.18:300][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:300][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EdGraph_0.K2Node_FunctionEntry_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_BlendListByBool_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_BlendSpacePlayer_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_LayeredBoneBlend_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_Root_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_SaveCachedPose_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_SequencePlayer_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_Slot_130' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_Slot_132' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_UseCachedPose_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_UseCachedPose_119' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_UseCachedPose_123' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.AnimGraphNode_UseCachedPose_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.EdGraphNode_Comment_29' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.EdGraphNode_Comment_37' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.EdGraphNode_Comment_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.EdGraphNode_Comment_73' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_14890' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_15849' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_15881' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_2377' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_2400' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_2507' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_30436' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_3582' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_CallFunction_6177' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_DynamicCast_48' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_Event_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_IfThenElse_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.K2Node_VariableGet_380' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.K2Node_VariableGet_382' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:AnimGraph.K2Node_VariableGet_430' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_VariableGet_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_VariableSet_100' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_VariableSet_101' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_VariableSet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.18:304][654]LogBlueprint: Warning: Node '/Game/MechGirl/Animation/MechGirl_ABP.MechGirl_ABP:EventGraph.K2Node_VariableSet_95' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.03.08-09.46.19:663][811]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.46.19:710][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.03.08-09.46.21:899][ 65]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-09.46.21:912][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-09.46.21:912][ 65]PIE: New page: PIE session: SideScrollerExampleMap (Mar 9, 2021, 3:46:21 AM)
+[2021.03.08-09.46.21:935][ 65]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.03.08-09.46.21:944][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008353s)
+[2021.03.08-09.46.21:945][ 65]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.03.08-09.46.21:945][ 65]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028309C16A00), frame # 762065
+[2021.03.08-09.46.21:945][ 65]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002838B195940), frame # 762065
+[2021.03.08-09.46.21:945][ 65]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2021.03.08-09.46.21:945][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.009480s)
+[2021.03.08-09.46.21:984][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-09.46.21:985][ 65]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-09.46.21:985][ 65]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-09.46.21:986][ 65]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-09.46.21:986][ 65]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-09.46.21:988][ 65]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-09.46.21:988][ 65]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-09.46.22:005][ 65]LogAudioMixer: Display: Using Audio Device 스피커 (2- USB Audio Device)
+[2021.03.08-09.46.22:005][ 65]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-09.46.22:005][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-09.46.22:005][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-09.46.22:005][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-09.46.22:015][ 65]LogInit: FAudioDevice initialized.
+[2021.03.08-09.46.22:021][ 65]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.03.08-09.46.22:023][ 65]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2021.03.08-18.46.22
+[2021.03.08-09.46.22:023][ 65]LogWorld: Bringing up level for play took: 0.001296
+[2021.03.08-09.46.22:023][ 65]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.03.08-09.46.22:025][ 65]PIE: Server logged in
+[2021.03.08-09.46.22:026][ 65]PIE: Play in editor total start time 0.115 seconds.
+[2021.03.08-09.46.26:576][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-09.46.26:576][606]LogWorld: BeginTearingDown for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.03.08-09.46.26:576][606]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.46.26:577][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.46.26:583][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-09.46.26:587][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.46.26:614][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-09.46.26:615][606]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002838B195940), frame # 762606
+[2021.03.08-09.46.26:615][606]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028309C16A00), frame # 762606
+[2021.03.08-09.46.26:617][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.03.08-09.46.26:658][609]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.03.08-09.46.37:822][902]LogMaterial: Display: Missing cached shader map for material MechGirl_BaseColor_Mat, compiling. 
+[2021.03.08-09.46.37:861][902]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 48
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 43
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 38
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 33
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 28
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 23
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 18
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.03.08-09.46.37:862][902]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2021.03.08-09.46.43:198][492]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.46.43:243][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.03.08-09.47.52:519][711]LogMaterial: Display: Missing cached shader map for material GunSwordTexture_Mat, compiling. 
+[2021.03.08-09.47.52:542][711]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2021.03.08-09.47.52:542][711]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2021.03.08-09.47.52:542][711]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2021.03.08-09.47.52:543][711]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2021.03.08-09.47.52:543][711]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2021.03.08-09.47.52:543][711]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2021.03.08-09.47.52:543][711]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.03.08-09.47.52:543][711]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2021.03.08-09.47.55:776][ 30]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.47.55:783][ 30]LogProperty: Warning: Serialized Class /Script/CustomMeshComponent.CustomMeshComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/MyCharacter.MyCharacter_C:WeaponMesh
+    Item = CustomMeshComponent /Engine/Transient.World_15:PersistentLevel.REINST_MyCharacter_C_3.TRASH_CustomMeshComponent_19
+[2021.03.08-09.47.55:784][ 30]LogProperty: Warning: Serialized Class /Script/CustomMeshComponent.CustomMeshComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/MyCharacter.MyCharacter_C:WeaponMesh
+    Item = CustomMeshComponent /Engine/Transient.World_14:PersistentLevel.REINST_MyCharacter_C_3.TRASH_CustomMeshComponent_14
+[2021.03.08-09.47.55:838][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.03.08-09.48.12:271][976]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.48.12:313][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.03.08-09.49.03:367][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2021.03.08-09.49.03:382][ 55]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyCharacterFDFD6DBC4E78F77CAB3E428BE3E72449.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset'
+[2021.03.08-09.49.03:394][ 55]AssetCheck: New page: Asset Save: MyCharacter
+[2021.03.08-09.49.03:394][ 55]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2021.03.08-09.49.37:631][121]LogMaterial: Display: Missing cached shader map for material M_BubbleRamp, compiling. 
+[2021.03.08-09.49.37:671][121]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 34
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 31
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 28
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 25
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 22
+[2021.03.08-09.49.37:671][121]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 19
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 16
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2021.03.08-09.49.37:672][121]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2021.03.08-09.50.09:656][727]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.50.09:695][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.03.08-09.50.10:413][807]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.50.13:894][220]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.50.13:894][220]LogLinker: Warning: Failed to load '/Game/Bluepirnt/Projectile_BP': Can't find file.
+[2021.03.08-09.50.13:894][220]LogLinker: Warning: Failed to load '/Game/Bluepirnt/Projectile_BP': Can't find file.
+[2021.03.08-09.50.13:895][220]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Bluepirnt/Projectile_BP.Projectile_BP_C'
+[2021.03.08-09.50.13:895][220]EditorErrors: Error: Failed to load class /Game/Bluepirnt/Projectile_BP.Projectile_BP_C
+[2021.03.08-09.50.19:009][829]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.50.19:009][829]EditorErrors: Error: Failed to load class /Game/Bluepirnt/Projectile_BP.Projectile_BP_C
+[2021.03.08-09.50.20:391][994]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.50.20:428][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.03.08-09.50.23:449][351]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.50.31:849][349]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.08-09.50.31:849][349]EditorErrors: Error: Failed to load class /Game/Bluepirnt/Projectile_BP.Projectile_BP_C
+[2021.03.08-09.50.48:521][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2021.03.08-09.50.48:542][338]LogSavePackage: Moving '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Saved/MyCharacter6E4B7FD144D570EAEE9E4889C3A0F950.tmp' to '../../../../../../Coding/Unreal_game_programming_BP/CHAPTER09/SideScrollGame/Content/Blueprints/MyCharacter.uasset'
+[2021.03.08-09.50.48:553][338]AssetCheck: New page: Asset Save: MyCharacter
+[2021.03.08-09.50.48:553][338]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/MyCharacter.MyCharacter
+[2021.03.08-09.50.48:986][389]BlueprintLog: New page: Compile MyCharacter
+[2021.03.08-09.50.49:024][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.03.08-09.50.49:930][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.03.08-09.50.49:952][492]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.49:952][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-09.50.50:042][492]LogSlate: Window 'SideScrollGame - Unreal Editor' being destroyed
+[2021.03.08-09.50.50:156][493]Cmd: QUIT_EDITOR
+[2021.03.08-09.50.50:156][493]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.03.08-09.50.50:164][493]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.03.08-09.50.51:016][493]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2021.03.08-09.50.51:025][493]LogExit: Preparing to exit.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.03.08-09.50.52:060][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:061][493]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.03.08-09.50.52:062][493]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-09.50.52:065][493]LogExit: Editor shut down
+[2021.03.08-09.50.52:065][493]LogExit: Transaction tracking system shut down
+[2021.03.08-09.50.52:178][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000282CC4A7E00), frame # 793493
+[2021.03.08-09.50.52:178][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000282CC50D440), frame # 793493
+[2021.03.08-09.50.52:251][493]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000282C65A5BC0), frame # 793493
+[2021.03.08-09.50.52:251][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000282C64F91C0), frame # 793493
+[2021.03.08-09.50.52:251][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000282C6578800), frame # 793493
+[2021.03.08-09.50.52:275][493]LogExit: Object subsystem successfully closed.
+[2021.03.08-09.50.52:298][493]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (800)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (798)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module Voice (796)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (792)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2021.03.08-09.50.52:306][493]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.03.08-09.50.52:307][493]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.03.08-09.50.52:308][493]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.03.08-09.50.53:918][493]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.03.08-09.50.53:919][493]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.03.08-09.50.53:953][493]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.03.08-09.50.53:964][493]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.03.08-09.50.53:964][493]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.03.08-09.50.53:965][493]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.03.08-09.50.53:965][493]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.03.08-09.50.53:966][493]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.03.08-09.50.53:967][493]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.03.08-09.50.54:184][493]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.03.08-09.50.54:184][493]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.03.08-09.50.54:185][493]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.03.08-09.50.54:188][493]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.03.08-09.50.54:188][493]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.03.08-09.50.54:189][493]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.03.08-09.50.54:291][493]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.03.08-09.50.54:392][493]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.03.08-09.50.54:392][493]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.03.08-09.50.54:392][493]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.03.08-09.50.54:393][493]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.03.08-09.50.54:394][493]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.03.08-09.50.54:395][493]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.03.08-09.50.54:396][493]LogXGEController: Cleaning working directory: C:/Users/demon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.03.08-09.50.54:396][493]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.03.08-09.50.54:397][493]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.03.08-09.50.54:398][493]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.03.08-09.50.54:400][493]LogHMD: Freeing OpenVRDLLHandle.
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.03.08-09.50.54:400][493]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.03.08-09.50.54:401][493]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.03.08-09.50.54:401][493]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.03.08-09.50.54:414][493]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.03.08-09.50.54:414][493]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.03.08-09.50.54:414][493]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB79B2607-4768-A120-35FE-4484A2412C37%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=d6bd60a549648ea46b92af87dac8f601%7C30672c3a14b545b5a70c2f3f1db4a6ce%7Cc52bbefc-bd28-4798-9721-d5d3b9feae35&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.03.08-09.50.54:421][493]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.03.08-09.50.54:422][493]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.03.08-09.50.54:423][493]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.03.08-09.50.54:424][493]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.03.08-09.50.54:425][493]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.03.08-09.50.54:425][493]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.03.08-09.50.54:440][493]LogD3D11RHI: Shutdown
+[2021.03.08-09.50.54:440][493]LogD3D11RHI: CleanupD3DDevice
+[2021.03.08-09.50.54:463][493]LogExit: Exiting.
+[2021.03.08-09.50.54:487][493]Log file closed, 03/08/21 18:50:54
